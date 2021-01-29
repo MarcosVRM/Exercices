@@ -1,0 +1,6 @@
+print('Para calcular quatno de tinta ira aprecisar para pintar sua parede vamo precisar saber')
+a = float(input('Quanto ela mede de altura, em metros?\nAltura:'))
+b = float(input('Quanto ela mede de largura, em metros?\nLargura:'))
+a1 = float(a * b)
+a2 = float(a1 / 2)
+print('As dimensões informadas são; {}m x {}m área informada é de: {:.3f}m²,serão necessários {:.3f}L de tinta'.format(a, b ,a1, a2))
