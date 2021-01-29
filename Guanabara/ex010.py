@@ -1,0 +1,5 @@
+print('Quantos dolares posso comprar?')
+a = float(input('Qantos reias você tem no momento?\nR$:'))
+b = float(input('Qual a cotação do dolar hoje?\nUS$'))
+ab =float(a / b)
+print("Com R${:.2f}, você pode comprar na data de hoje US${:.2f}.".format(a, ab))
